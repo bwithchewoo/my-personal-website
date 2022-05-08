@@ -1,4 +1,18 @@
+
 body {
-    background: blue;
+    background: #E2E1E1;
   }
-  
+div.Ayato {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family:Helvetica, sans-serif;
+    font-size:60px;
+
+}
+div#Randomizer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
