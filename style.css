@@ -16,3 +16,33 @@ div#Randomizer {
     justify-content: center;
     margin-bottom: 50px;
 }
+button#Randombutton {
+    position: relative; 
+    width: 50px; 
+    height: 45px; 
+    border: none;
+    background: #E2E1E1;
+}
+button#Randombutton:before, button#Randombutton:after{
+    background: #ec638e;
+    position: absolute; 
+    content: ""; 
+    left: 25px; 
+    top: 0; 
+    width: 25px; 
+    height: 40px; 
+    border-radius: 25px 25px 0 0; 
+    transform: rotate(-45deg); 
+    transform-origin: 0 100%; 
+    
+}
+button#Randombutton:after{
+    left: 0; 
+    transform: rotate(45deg); 
+    transform-origin :100% 100%; 
+}
+h2 {
+    text-align: center;
+    font-size:large;
+    font-family: Helvetica, sans-serif;
+}
