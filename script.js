@@ -6,3 +6,12 @@ button.addEventListener('click', function() {
     var randomNum = Math.floor(Math.random() * husbandoArray.length);
     document.getElementById("newHusbando").src = husbandoArray[randomNum];
 });
+
+let buttoncounttext = document.getElementById("Counter");
+
+let count = 0;
+button.onclick = function() {
+  count += 1;
+  buttoncounttext.innerHTML = "You pressed the heart " + count + " times.";
+};
+
